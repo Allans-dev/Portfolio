@@ -1,0 +1,117 @@
+#nav-bar{
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  z-index: 100;
+
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+#nav-bar ul li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 100px 15px 100px;
+  text-decoration: none;
+  position: relative;
+}
+li:hover{
+  background-color: grey;
+  transition-duration: 0.4s;
+}
+body{
+  background-color: black;
+}
+#first{
+  background-image: url("http://i.imgur.com/SOMoE8m.jpg");
+  background-size: cover;
+  height: 800px;
+  padding-top: 25%;
+  padding-bottom: 20%;
+  width: 100%;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: "Comfortaa";
+}
+h2{
+  text-align:center;
+  font-style:italic;
+  color: white;
+  font-family: "Comfortaa";
+}
+#second{
+  background-image: url("http://i.imgur.com/XOxSJZd.jpg");
+  background-size: cover;
+  height: 800px;
+  color: white;
+  text-align: center;
+}
+#second .row{
+  padding-top: 10%;
+}
+.thumbNail{
+  height: 100%;
+  width: 80%;
+  border: 1px solid black;
+}
+#second .row p{
+  margin-top: 5%;
+}
+#third{
+  background-image: url("http://i.imgur.com/EoBSSEn.jpg");
+  background-size: cover;
+  height: 800px;
+}
+.sectionheader{
+  padding-top: 10%;
+}
+#bio{
+  margin: 15% 0% 10% 20%;
+  color: white;
+  font-size: 120%;
+}
+hr{
+  width: 70%;
+  margin: 0% 5% 0% 25%;
+}
+#profile-pic{
+  height: 380px;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid black;
+}
+.social{
+  float: right;
+  margin-right: 30px;
+}
+.btn{
+  height: 50px;
+  width: 50px;
+  border-radius: 35%;
+}
+.btn:hover{
+  background-color: grey;
+  transition-duration: 0.4s;
+}
+.btn-background{
+  background-color: transparent;
+  border-color: white;
+}
+.fa{
+  color: white;
+}
+footer{
+  color: white;
+  text-align: right;
+}
